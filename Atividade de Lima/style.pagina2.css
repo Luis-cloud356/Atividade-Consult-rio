@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(192, 240, 240);
+}
+
+
+header {
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+header h1 {
+    color: red;
+}
+
+.content {
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+}
+
+.box {
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: #555;
+}
+
+.box p {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.caixa h2{
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.caixa p {
+    font-size: 17px;
+}
+
+.caixa ul {
+    font-size: 17px;
+}
+ 
+.button {
+    padding: 10px;
+    background-color: rgb(15, 230, 15);
+}
+.voltar{
+    margin-top: 20px;
+}
